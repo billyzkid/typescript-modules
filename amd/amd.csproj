@@ -56,9 +56,6 @@
     <Content Include="index.html" />
     <Content Include="lib\requirejs\require.d.ts" />
     <Content Include="lib\requirejs\require.js" />
-    <Content Include="main-bundle.js">
-      <DependentUpon>main.js</DependentUpon>
-    </Content>
     <Content Include="main.js" />
     <Content Include="src\Library.js">
       <DependentUpon>Library.ts</DependentUpon>
