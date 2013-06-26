@@ -53,7 +53,7 @@
     <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="index.js" />
+    <Content Include="main.js" />
     <Content Include="lib\node\node.d.ts" />
     <Content Include="src\Library.js">
       <DependentUpon>Library.ts</DependentUpon>
@@ -67,6 +67,9 @@
     <TypeScriptCompile Include="src\Library.ts" />
     <TypeScriptCompile Include="src\Package1\Module1.ts" />
     <TypeScriptCompile Include="src\Package2\Module2.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.bat" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
