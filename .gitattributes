@@ -1,0 +1,25 @@
+# Default behavior
+*        text=auto
+
+# Binary files
+*.gif    binary
+*.jpg    binary
+*.png    binary
+
+# Text files
+*.bat    text
+*.config text
+*.cs     text diff=csharp
+*.css    text
+*.htm    text diff=html
+*.html   text diff=html
+*.less   text
+*.js     text
+*.js.map text
+*.json   text
+*.ts     text
+*.txt    text
+
+# Visual Studio files
+*.csproj text merge=union eol=crlf
+*.sln    text merge=union eol=crlf

@@ -1,0 +1,24 @@
+# Ignored folders
+bin/
+obj/
+
+# Ignored files
+*.suo
+*.user
+*.orig
+
+# Built files
+amd/src/*.js
+amd/src/*.js.map
+amd/src/*/*.js
+amd/src/*/*.js.map
+commonjs/src/*.js
+commonjs/src/*.js.map
+commonjs/src/*/*.js
+commonjs/src/*/*.js.map
+umd/src/*.js
+umd/src/*.js.map
+umd/src/*/*.js
+umd/src/*/*.js.map
+umd/Library.js
+umd/Library.js.map
