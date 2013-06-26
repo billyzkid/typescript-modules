@@ -19,7 +19,7 @@
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
-    <RootNamespace>commonjs</RootNamespace>
+    <RootNamespace>commonjs_node</RootNamespace>
   </PropertyGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

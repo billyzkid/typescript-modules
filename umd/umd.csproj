@@ -44,13 +44,13 @@
     <TypeScriptTarget>ES3</TypeScriptTarget>
     <TypeScriptIncludeComments>true</TypeScriptIncludeComments>
     <TypeScriptSourceMap>true</TypeScriptSourceMap>
-    <TypeScriptOutFile>Library.js</TypeScriptOutFile>
+    <TypeScriptOutFile>src/Library.js</TypeScriptOutFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <TypeScriptTarget>ES3</TypeScriptTarget>
     <TypeScriptIncludeComments>false</TypeScriptIncludeComments>
     <TypeScriptSourceMap>false</TypeScriptSourceMap>
-    <TypeScriptOutFile>Library.js</TypeScriptOutFile>
+    <TypeScriptOutFile>src/Library.js</TypeScriptOutFile>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="index-global.html" />
@@ -62,16 +62,6 @@
     <Content Include="src\Library.js">
       <DependentUpon>Library.ts</DependentUpon>
     </Content>
-    <Content Include="src\Package1\Module1.js">
-      <DependentUpon>Module1.ts</DependentUpon>
-    </Content>
-    <Content Include="src\Package2\Module2.js">
-      <DependentUpon>Module2.ts</DependentUpon>
-    </Content>
-    <Content Include="src\References.js">
-      <DependentUpon>References.ts</DependentUpon>
-    </Content>
-    <TypeScriptCompile Include="src\References.ts" />
     <TypeScriptCompile Include="src\Library.ts" />
     <TypeScriptCompile Include="src\Package1\Module1.ts" />
     <TypeScriptCompile Include="src\Package2\Module2.ts" />

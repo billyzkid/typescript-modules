@@ -1,4 +1,4 @@
-/// <reference path="../References.ts" />
+/// <reference path="../Library.ts" />
 
 module Library.Package2 {
 

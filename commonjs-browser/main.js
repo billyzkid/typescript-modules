@@ -1,2 +1,2 @@
 ﻿var library = require("./src/Library");
-console.log(library.read());
+alert(library.read());
